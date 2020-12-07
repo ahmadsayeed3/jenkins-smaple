@@ -1,0 +1,12 @@
+{
+	"devices": [{
+			"name": "ASUS_Zenfone2_Android_5.0.0",
+			"version": "5.0.0"
+		},{
+			"name": "ONEPLUS_3T_Android_9.0.0",
+			"version": "9.0.0"
+		},{
+			"name": "SAMSUNG_GalaxyJ7Pro_Android_8.1.0",
+			"version": "8.1.0"
+		}]
+}

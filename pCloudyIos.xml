@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" configfailurepolicy="continue"
+	name="Migo Suite" parallel="tests">
+	<listeners>
+		<listener class-name="com.pCloudy.base.AlterSuite" />
+		<listener class-name="com.pCloudy.base.TestListener" />
+		<listener class-name="com.pCloudy.base.InvokedMethodListeners" />
+		<listener class-name="com.pCloudy.base.Reporter" />
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="com.pCloudy.android.tests.pCloudyTestMunkIosTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

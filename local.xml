@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" name="Migo Suite"
+	parallel="tests">
+	<listeners>
+		<listener class-name="com.migo.base.TestListener" />
+		<listener class-name="com.migo.base.InvokedMethodListeners" />
+		<listener class-name="com.migo.base.Reporter" />
+	</listeners>
+	<test name="Test" preserve-order="true">
+		<parameter name="device" value="0715f7852b9f2836" />
+		<parameter name="version" value="7.0.0" />
+		<classes>
+			<class name="com.migo.android.tests.FU1.Migo_FU1" />
+			<class name="com.migo.android.tests.FU2.Migo_FU2" />
+			<class name="com.migo.android.tests.FU3.Migo_FU3" />
+			<class name="com.migo.android.tests.FU4.Migo_FU4" />
+			<class name="com.migo.android.tests.PB1.Migo_PB1" />
+			<class name="com.migo.android.tests.PB2.Migo_PB2" />
+			<class name="com.migo.android.tests.AL1.Migo_AL1" />
+			<class name="com.migo.android.tests.AL2.Migo_AL2" />
+			<class name="com.migo.android.tests.AL3.Migo_AL3" />
+			<class name="com.migo.android.tests.AL4.Migo_AL4" />
+			<class name="com.migo.android.tests.AL5.Migo_AL5" />
+			<class name="com.migo.android.tests.AL6.Migo_AL6" />
+			<class name="com.migo.android.tests.MF1.Migo_MF1" />
+			<class name="com.migo.android.tests.MF2.Migo_MF2" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

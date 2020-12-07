@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Migo Suite" duration-ms="51629" started-at="2020-06-02T11:12:45Z" finished-at="2020-06-02T11:13:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="40536" started-at="2020-06-02T11:12:45Z" finished-at="2020-06-02T11:13:25Z">
+      <class name="com.pCloudy.android.tests.pCloudyAndroidTest">
+        <test-method status="PASS" signature="startApp(java.lang.String, java.lang.String)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="29735" started-at="2020-06-02T16:42:45Z" finished-at="2020-06-02T16:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ASUS_Zenfone2_Android_5.0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="reportStartUp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="reportStartUp" is-config="true" duration-ms="3" started-at="2020-06-02T16:43:14Z" finished-at="2020-06-02T16:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pCloudy.android.tests.pCloudyAndroidTest.SampleAndroidTest(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ASUS_Zenfone2_Android_5.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportStartUp -->
+        <test-method status="PASS" signature="SampleAndroidTest(java.lang.String)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="SampleAndroidTest" duration-ms="8682" started-at="2020-06-02T16:43:14Z" finished-at="2020-06-02T16:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SampleAndroidTest -->
+        <test-method status="PASS" signature="reportTearDown(java.lang.reflect.Method, java.lang.String, org.testng.ITestResult)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="reportTearDown" is-config="true" duration-ms="1" started-at="2020-06-02T16:43:23Z" finished-at="2020-06-02T16:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pCloudy.android.tests.pCloudyAndroidTest.SampleAndroidTest(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ASUS_Zenfone2_Android_5.0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=SampleAndroidTest on [pCloudyAndroidTest passed=0 failed=0 skipped=0] status=SUCCESS method=pCloudyAndroidTest.SampleAndroidTest(java.lang.String)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTearDown -->
+        <test-method status="PASS" signature="stopApp(java.lang.String)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="stopApp" is-config="true" duration-ms="2083" started-at="2020-06-02T16:43:23Z" finished-at="2020-06-02T16:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ASUS_Zenfone2_Android_5.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopApp -->
+      </class> <!-- com.pCloudy.android.tests.pCloudyAndroidTest -->
+    </test> <!-- Test -->
+    <test name="ONEPLUS_3T_Android_9.0.0" duration-ms="48684" started-at="2020-06-02T11:12:45Z" finished-at="2020-06-02T11:13:33Z">
+      <class name="com.pCloudy.android.tests.pCloudyAndroidTest">
+        <test-method status="PASS" signature="startApp(java.lang.String, java.lang.String)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="37034" started-at="2020-06-02T16:42:45Z" finished-at="2020-06-02T16:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ONEPLUS_3T_Android_9.0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="SampleAndroidTest(java.lang.String)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="SampleAndroidTest" duration-ms="10840" started-at="2020-06-02T16:43:22Z" finished-at="2020-06-02T16:43:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SampleAndroidTest -->
+        <test-method status="PASS" signature="reportStartUp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="reportStartUp" is-config="true" duration-ms="0" started-at="2020-06-02T16:43:22Z" finished-at="2020-06-02T16:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pCloudy.android.tests.pCloudyAndroidTest.SampleAndroidTest(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ONEPLUS_3T_Android_9.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportStartUp -->
+        <test-method status="PASS" signature="reportTearDown(java.lang.reflect.Method, java.lang.String, org.testng.ITestResult)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="reportTearDown" is-config="true" duration-ms="1" started-at="2020-06-02T16:43:33Z" finished-at="2020-06-02T16:43:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pCloudy.android.tests.pCloudyAndroidTest.SampleAndroidTest(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ONEPLUS_3T_Android_9.0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=SampleAndroidTest on [pCloudyAndroidTest passed=0 failed=0 skipped=0] status=SUCCESS method=pCloudyAndroidTest.SampleAndroidTest(java.lang.String)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTearDown -->
+        <test-method status="PASS" signature="stopApp(java.lang.String)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="stopApp" is-config="true" duration-ms="793" started-at="2020-06-02T16:43:33Z" finished-at="2020-06-02T16:43:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ONEPLUS_3T_Android_9.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopApp -->
+      </class> <!-- com.pCloudy.android.tests.pCloudyAndroidTest -->
+    </test> <!-- ONEPLUS_3T_Android_9.0.0 -->
+    <test name="SAMSUNG_GalaxyJ7Pro_Android_8.1.0" duration-ms="51623" started-at="2020-06-02T11:12:45Z" finished-at="2020-06-02T11:13:36Z">
+      <class name="com.pCloudy.android.tests.pCloudyAndroidTest">
+        <test-method status="PASS" signature="startApp(java.lang.String, java.lang.String)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="38782" started-at="2020-06-02T16:42:45Z" finished-at="2020-06-02T16:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SAMSUNG_GalaxyJ7Pro_Android_8.1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="reportStartUp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="reportStartUp" is-config="true" duration-ms="0" started-at="2020-06-02T16:43:23Z" finished-at="2020-06-02T16:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pCloudy.android.tests.pCloudyAndroidTest.SampleAndroidTest(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SAMSUNG_GalaxyJ7Pro_Android_8.1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportStartUp -->
+        <test-method status="PASS" signature="SampleAndroidTest(java.lang.String)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="SampleAndroidTest" duration-ms="12444" started-at="2020-06-02T16:43:23Z" finished-at="2020-06-02T16:43:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8.1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SampleAndroidTest -->
+        <test-method status="PASS" signature="reportTearDown(java.lang.reflect.Method, java.lang.String, org.testng.ITestResult)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="reportTearDown" is-config="true" duration-ms="0" started-at="2020-06-02T16:43:36Z" finished-at="2020-06-02T16:43:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pCloudy.android.tests.pCloudyAndroidTest.SampleAndroidTest(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SAMSUNG_GalaxyJ7Pro_Android_8.1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=SampleAndroidTest on [pCloudyAndroidTest passed=0 failed=0 skipped=0] status=SUCCESS method=pCloudyAndroidTest.SampleAndroidTest(java.lang.String)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTearDown -->
+        <test-method status="PASS" signature="stopApp(java.lang.String)[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="stopApp" is-config="true" duration-ms="390" started-at="2020-06-02T16:43:36Z" finished-at="2020-06-02T16:43:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SAMSUNG_GalaxyJ7Pro_Android_8.1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopApp -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:[pCloudyAndroidTest passed=0 failed=0 skipped=0]]" name="flushReport" is-config="true" duration-ms="577" started-at="2020-06-02T16:43:36Z" finished-at="2020-06-02T16:43:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.pCloudy.android.tests.pCloudyAndroidTest -->
+    </test> <!-- SAMSUNG_GalaxyJ7Pro_Android_8.1.0 -->
+  </suite> <!-- Migo Suite -->
+</testng-results>

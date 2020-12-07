@@ -1,0 +1,10 @@
+
+{
+	"devices": [{
+			"name": "APPLE_iPhone8_iOS_12.2.0",
+			"version": "12.2.0"
+		},{
+			"name": "APPLE_iPadPro_iOS_12.1.0",
+			"version": "12.1.0"
+		}]
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Migo Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.pCloudy.base.AlterSuite"/>
+    <listener class-name="com.pCloudy.base.TestListener"/>
+    <listener class-name="com.pCloudy.base.InvokedMethodListeners"/>
+    <listener class-name="com.pCloudy.base.Reporter"/>
+  </listeners>
+  <test name="SAMSUNG_GalaxyJ7Pro_Android_8.1.0(failed)" parallel="tests">
+    <parameter name="device" value="SAMSUNG_GalaxyJ7Pro_Android_8.1.0"/>
+    <parameter name="version" value="8.1.0"/>
+    <classes>
+      <class name="com.pCloudy.android.tests.pCloudyAndroidTest">
+        <methods>
+          <include name="reportTearDown"/>
+          <include name="flushReport"/>
+          <include name="reportStartUp"/>
+          <include name="SampleAndroidTest"/>
+          <include name="startApp"/>
+          <include name="stopApp"/>
+        </methods>
+      </class> <!-- com.pCloudy.android.tests.pCloudyAndroidTest -->
+    </classes>
+  </test> <!-- SAMSUNG_GalaxyJ7Pro_Android_8.1.0(failed) -->
+  <test name="ONEPLUS_3T_Android_9.0.0(failed)" parallel="tests">
+    <parameter name="device" value="ONEPLUS_3T_Android_9.0.0"/>
+    <parameter name="version" value="9.0.0"/>
+    <classes>
+      <class name="com.pCloudy.android.tests.pCloudyAndroidTest">
+        <methods>
+          <include name="reportTearDown"/>
+          <include name="flushReport"/>
+          <include name="reportStartUp"/>
+          <include name="SampleAndroidTest"/>
+          <include name="startApp"/>
+          <include name="stopApp"/>
+        </methods>
+      </class> <!-- com.pCloudy.android.tests.pCloudyAndroidTest -->
+    </classes>
+  </test> <!-- ONEPLUS_3T_Android_9.0.0(failed) -->
+  <test name="Test(failed)" parallel="tests">
+    <parameter name="device" value="ASUS_Zenfone2_Android_5.0.0"/>
+    <parameter name="version" value="5.0.0"/>
+    <classes>
+      <class name="com.pCloudy.android.tests.pCloudyAndroidTest">
+        <methods>
+          <include name="reportTearDown"/>
+          <include name="flushReport"/>
+          <include name="reportStartUp"/>
+          <include name="SampleAndroidTest"/>
+          <include name="startApp"/>
+          <include name="stopApp"/>
+        </methods>
+      </class> <!-- com.pCloudy.android.tests.pCloudyAndroidTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Migo Suite] -->
